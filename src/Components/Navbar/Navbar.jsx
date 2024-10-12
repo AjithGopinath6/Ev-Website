@@ -3,7 +3,16 @@ import './Navbar.css'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <div className='nav'>
+      <div className='nav-logo'>EV-olution</div>
+      <ul className='nav-menu'>
+        <li>Home</li>
+        <li>Explore</li>
+        <li>About</li>
+        <li className='nav-cont'>Contact</li>
+
+      </ul>
+    </div>
   )
 }
 
