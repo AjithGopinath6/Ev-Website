@@ -14,13 +14,13 @@ function Background({playStatus, heroCount}) {
     )
   }
   else if(heroCount ===0){
-    return <img className='Background' src={image1} alt="image1"/>
+    return <img className='Background fade-in' src={image1} alt="image1"/>
   }
   else if(heroCount ===1){
-    return <img className='Background' src={image2} alt="image1"/>
+    return <img className='Background fade-in' src={image2} alt="image1"/>
   }
   else if(heroCount ===2){
-    return <img className='Background' src={image3} alt="image1"/>
+    return <img className='Background fade-in' src={image3} alt="image1"/>
   }
   }
 
